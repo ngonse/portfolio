@@ -9,10 +9,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "var(--color-primary)",
+        background: {
+          DEFAULT: "var(--color-background)",
+          light: "var(--color-background-light)",
+          muted: "var(--color-background-muted)",
+        },
+        foreground: {
+          DEFAULT: "var(--color-text)",
+          muted: "var(--color-text-muted)",
+        },
+        accent: "var(--color-accent)",
+        border: "var(--color-border)",
       },
     },
   },
-  plugins: [],
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  plugins: [require("@tailwindcss/typography")],
 } satisfies Config;

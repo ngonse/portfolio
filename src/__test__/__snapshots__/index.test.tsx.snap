@@ -1,0 +1,1829 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders a heading 1`] = `
+<div>
+  <div
+    class="bg-background text-foreground flex flex-col min-h-screen max-w-6xl mx-auto  font-mono"
+  >
+    <header
+      class="flex justify-center sm:justify-between items-center h-16 sticky top-0 z-10 bg-background border-b border-border"
+    >
+      <h1
+        class="hidden sm:block"
+      >
+        <a
+          href="mailto:nick.gonzalez@3pillarglobal.com"
+        >
+          nick.gonzalez@3pillarglobal.com
+        </a>
+      </h1>
+      <nav>
+        <ul
+          class="flex justify-evenly gap-3"
+        >
+          <li>
+            <a
+              class="header-link "
+              href="#about"
+            >
+              #about
+            </a>
+          </li>
+          <li>
+            <a
+              class="header-link "
+              href="#skills"
+            >
+              #skills
+            </a>
+          </li>
+          <li>
+            <a
+              class="header-link "
+              href="#projects"
+            >
+              #projects
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main
+      class="p-4"
+    >
+      <section
+        aria-label="about"
+        class="flex flex-col justify-center items-center gap-12 min-h-[calc(100vh-4rem)]"
+        id="about"
+        role="region"
+      >
+        <img
+          alt="Nick González"
+          class="w-36 h-36 sm:w-60 sm:h-60 rounded-full grayscale"
+          data-nimg="1"
+          decoding="async"
+          height="240"
+          loading="lazy"
+          src="/_next/image?url=%2Fme.jpg&w=640&q=75"
+          srcset="/_next/image?url=%2Fme.jpg&w=256&q=75 1x, /_next/image?url=%2Fme.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="240"
+        />
+        <div
+          class="prose text-current text-center"
+        >
+          <h2
+            class="text-xl sm:text-2xl text-current"
+          >
+            # Hi, I'm Nick González 👋
+          </h2>
+          <p
+            class="text-base sm:text-lg"
+          >
+            I'm a Software Engineer with a passion for JavaScript and Mobile Development. My expertise lies in building innovative and user-centric applications, currently leveraging the power of React and Next.js to create seamless digital experiences.
+          </p>
+        </div>
+      </section>
+      <section
+        class="py-16"
+        id="skills"
+      >
+        <h2
+          class="text-4xl"
+        >
+          # Skills
+        </h2>
+        <div
+          class="flex gap-12 mt-12 flex-wrap justify-center"
+        >
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="JS"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/javascript.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              JS
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="TS"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/typescript.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              TS
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="NodeJS"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/nodejs.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              NodeJS
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="NextJS"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/nextjs.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              NextJS
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="React"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/react.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              React
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="GraphQL"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/graphql.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              GraphQL
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="CSS"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/css.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              CSS
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="HTML"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/html5.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              HTML
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="Dart"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/dart.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              Dart
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="PHP"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/php.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              PHP
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="TailwindCSS"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/tailwindcss.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              TailwindCSS
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex gap-12 mt-16 flex-wrap justify-center"
+        >
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                React Native
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                SQL
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                RestAPI
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                Unit Test
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                Express
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                NestJS
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                GIT
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                GITHUB
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                Wordpress
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                Drupal
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                MongoDB
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                Chakra UI
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                Laravel
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        aria-label="projects"
+        class="text-current py-16 min-h-screen"
+        id="projects"
+        role="region"
+      >
+        <h2
+          class="text-4xl"
+        >
+          # Projects
+        </h2>
+        <div
+          class="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-12"
+        >
+          <article
+            class="flex items-end bg-background-light h-72 rounded-[6px] relative p-1"
+          >
+            <span
+              class="muted absolute text-xs top-3 right-3"
+            >
+              <time
+                datetime="2020"
+              >
+                2020
+              </time>
+            </span>
+            <div
+              class="flex flex-col items-start justify-end p-3 rounded-[5px] gap-y-3 border-2 border-border w-full h-full"
+            >
+              <svg
+                class="stroke-foreground"
+                data-testid="web-icon"
+                fill="none"
+                height="36"
+                viewBox="0 0 24 24"
+                width="36"
+              >
+                <path
+                  d="M21 16V7.2C21 6.0799 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.4802 4 18.9201 4 17.8 4H6.2C5.07989 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.0799 3 7.2V16M4.66667 20H19.3333C19.9533 20 20.2633 20 20.5176 19.9319C21.2078 19.7469 21.7469 19.2078 21.9319 18.5176C22 18.2633 22 17.9533 22 17.3333C22 17.0233 22 16.8683 21.9659 16.7412C21.8735 16.3961 21.6039 16.1265 21.2588 16.0341C21.1317 16 20.9767 16 20.6667 16H3.33333C3.02334 16 2.86835 16 2.74118 16.0341C2.39609 16.1265 2.12654 16.3961 2.03407 16.7412C2 16.8683 2 17.0233 2 17.3333C2 17.9533 2 18.2633 2.06815 18.5176C2.25308 19.2078 2.79218 19.7469 3.48236 19.9319C3.73669 20 4.04669 20 4.66667 20Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>
+                Backcountry
+              </p>
+              <p
+                class="text-sm"
+              >
+                NextJS.
+              </p>
+            </div>
+          </article>
+          <article
+            class="flex items-end bg-background-light h-72 rounded-[6px] relative p-1"
+          >
+            <span
+              class="muted absolute text-xs top-3 right-3"
+            >
+              <time
+                datetime="2022"
+              >
+                2022
+              </time>
+            </span>
+            <div
+              class="flex flex-col items-start justify-end p-3 rounded-[5px] gap-y-3 border-2 border-border w-full h-full"
+            >
+              <svg
+                class="stroke-foreground"
+                data-testid="mobile-icon"
+                fill="none"
+                height="36"
+                viewBox="0 0 24 24"
+                width="36"
+              >
+                <path
+                  d="M12 18H12.01M9.2 21H14.8C15.9201 21 16.4802 21 16.908 20.782C17.2843 20.5903 17.5903 20.2843 17.782 19.908C18 19.4802 18 18.9201 18 17.8V6.2C18 5.0799 18 4.51984 17.782 4.09202C17.5903 3.71569 17.2843 3.40973 16.908 3.21799C16.4802 3 15.9201 3 14.8 3H9.2C8.0799 3 7.51984 3 7.09202 3.21799C6.71569 3.40973 6.40973 3.71569 6.21799 4.09202C6 4.51984 6 5.07989 6 6.2V17.8C6 18.9201 6 19.4802 6.21799 19.908C6.40973 20.2843 6.71569 20.5903 7.09202 20.782C7.51984 21 8.07989 21 9.2 21Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>
+                Full Focus
+              </p>
+              <p
+                class="text-sm"
+              >
+                React Native.
+              </p>
+            </div>
+          </article>
+          <article
+            class="flex items-end bg-background-light h-72 rounded-[6px] relative p-1"
+          >
+            <span
+              class="muted absolute text-xs top-3 right-3"
+            >
+              <time
+                datetime="2023"
+              >
+                2023
+              </time>
+            </span>
+            <div
+              class="flex flex-col items-start justify-end p-3 rounded-[5px] gap-y-3 border-2 border-border w-full h-full"
+            >
+              <svg
+                class="stroke-foreground"
+                data-testid="web-icon"
+                fill="none"
+                height="36"
+                viewBox="0 0 24 24"
+                width="36"
+              >
+                <path
+                  d="M21 16V7.2C21 6.0799 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.4802 4 18.9201 4 17.8 4H6.2C5.07989 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.0799 3 7.2V16M4.66667 20H19.3333C19.9533 20 20.2633 20 20.5176 19.9319C21.2078 19.7469 21.7469 19.2078 21.9319 18.5176C22 18.2633 22 17.9533 22 17.3333C22 17.0233 22 16.8683 21.9659 16.7412C21.8735 16.3961 21.6039 16.1265 21.2588 16.0341C21.1317 16 20.9767 16 20.6667 16H3.33333C3.02334 16 2.86835 16 2.74118 16.0341C2.39609 16.1265 2.12654 16.3961 2.03407 16.7412C2 16.8683 2 17.0233 2 17.3333C2 17.9533 2 18.2633 2.06815 18.5176C2.25308 19.2078 2.79218 19.7469 3.48236 19.9319C3.73669 20 4.04669 20 4.66667 20Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>
+                iPro
+              </p>
+              <p
+                class="text-sm"
+              >
+                Ruby and React.
+              </p>
+            </div>
+          </article>
+          <article
+            class="flex items-end bg-background-light h-72 rounded-[6px] relative p-1"
+          >
+            <span
+              class="muted absolute text-xs top-3 right-3"
+            >
+              <time
+                datetime="2020"
+              >
+                2020
+              </time>
+            </span>
+            <div
+              class="flex flex-col items-start justify-end p-3 rounded-[5px] gap-y-3 border-2 border-border w-full h-full"
+            >
+              <svg
+                class="stroke-foreground"
+                data-testid="web-icon"
+                fill="none"
+                height="36"
+                viewBox="0 0 24 24"
+                width="36"
+              >
+                <path
+                  d="M21 16V7.2C21 6.0799 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.4802 4 18.9201 4 17.8 4H6.2C5.07989 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.0799 3 7.2V16M4.66667 20H19.3333C19.9533 20 20.2633 20 20.5176 19.9319C21.2078 19.7469 21.7469 19.2078 21.9319 18.5176C22 18.2633 22 17.9533 22 17.3333C22 17.0233 22 16.8683 21.9659 16.7412C21.8735 16.3961 21.6039 16.1265 21.2588 16.0341C21.1317 16 20.9767 16 20.6667 16H3.33333C3.02334 16 2.86835 16 2.74118 16.0341C2.39609 16.1265 2.12654 16.3961 2.03407 16.7412C2 16.8683 2 17.0233 2 17.3333C2 17.9533 2 18.2633 2.06815 18.5176C2.25308 19.2078 2.79218 19.7469 3.48236 19.9319C3.73669 20 4.04669 20 4.66667 20Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>
+                Feria de Artes Virtual 2020-2021
+              </p>
+              <p
+                class="text-sm"
+              >
+                WordPress and Frontity.
+              </p>
+            </div>
+          </article>
+          <article
+            class="flex items-end bg-background-light h-72 rounded-[6px] relative p-1"
+          >
+            <span
+              class="muted absolute text-xs top-3 right-3"
+            >
+              <time
+                datetime="2020"
+              >
+                2020
+              </time>
+            </span>
+            <div
+              class="flex flex-col items-start justify-end p-3 rounded-[5px] gap-y-3 border-2 border-border w-full h-full"
+            >
+              <svg
+                class="stroke-foreground"
+                data-testid="web-icon"
+                fill="none"
+                height="36"
+                viewBox="0 0 24 24"
+                width="36"
+              >
+                <path
+                  d="M21 16V7.2C21 6.0799 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.4802 4 18.9201 4 17.8 4H6.2C5.07989 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.0799 3 7.2V16M4.66667 20H19.3333C19.9533 20 20.2633 20 20.5176 19.9319C21.2078 19.7469 21.7469 19.2078 21.9319 18.5176C22 18.2633 22 17.9533 22 17.3333C22 17.0233 22 16.8683 21.9659 16.7412C21.8735 16.3961 21.6039 16.1265 21.2588 16.0341C21.1317 16 20.9767 16 20.6667 16H3.33333C3.02334 16 2.86835 16 2.74118 16.0341C2.39609 16.1265 2.12654 16.3961 2.03407 16.7412C2 16.8683 2 17.0233 2 17.3333C2 17.9533 2 18.2633 2.06815 18.5176C2.25308 19.2078 2.79218 19.7469 3.48236 19.9319C3.73669 20 4.04669 20 4.66667 20Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>
+                Expo Pyme Virtual 2020
+              </p>
+              <p
+                class="text-sm"
+              >
+                Drupal and Gatsby.
+              </p>
+            </div>
+          </article>
+          <article
+            class="flex items-end bg-background-light h-72 rounded-[6px] relative p-1"
+          >
+            <span
+              class="muted absolute text-xs top-3 right-3"
+            >
+              <time
+                datetime="2020"
+              >
+                2020
+              </time>
+            </span>
+            <div
+              class="flex flex-col items-start justify-end p-3 rounded-[5px] gap-y-3 border-2 border-border w-full h-full"
+            >
+              <svg
+                class="stroke-foreground"
+                data-testid="mobile-icon"
+                fill="none"
+                height="36"
+                viewBox="0 0 24 24"
+                width="36"
+              >
+                <path
+                  d="M12 18H12.01M9.2 21H14.8C15.9201 21 16.4802 21 16.908 20.782C17.2843 20.5903 17.5903 20.2843 17.782 19.908C18 19.4802 18 18.9201 18 17.8V6.2C18 5.0799 18 4.51984 17.782 4.09202C17.5903 3.71569 17.2843 3.40973 16.908 3.21799C16.4802 3 15.9201 3 14.8 3H9.2C8.0799 3 7.51984 3 7.09202 3.21799C6.71569 3.40973 6.40973 3.71569 6.21799 4.09202C6 4.51984 6 5.07989 6 6.2V17.8C6 18.9201 6 19.4802 6.21799 19.908C6.40973 20.2843 6.71569 20.5903 7.09202 20.782C7.51984 21 8.07989 21 9.2 21Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>
+                tapchat
+              </p>
+              <p
+                class="text-sm"
+              >
+                React Native.
+              </p>
+            </div>
+          </article>
+          <article
+            class="flex items-end bg-background-light h-72 rounded-[6px] relative p-1"
+          >
+            <span
+              class="muted absolute text-xs top-3 right-3"
+            >
+              <time
+                datetime="2023"
+              >
+                2023
+              </time>
+            </span>
+            <div
+              class="flex flex-col items-start justify-end p-3 rounded-[5px] gap-y-3 border-2 border-border w-full h-full"
+            >
+              <svg
+                class="stroke-foreground"
+                data-testid="web-icon"
+                fill="none"
+                height="36"
+                viewBox="0 0 24 24"
+                width="36"
+              >
+                <path
+                  d="M21 16V7.2C21 6.0799 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.4802 4 18.9201 4 17.8 4H6.2C5.07989 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.0799 3 7.2V16M4.66667 20H19.3333C19.9533 20 20.2633 20 20.5176 19.9319C21.2078 19.7469 21.7469 19.2078 21.9319 18.5176C22 18.2633 22 17.9533 22 17.3333C22 17.0233 22 16.8683 21.9659 16.7412C21.8735 16.3961 21.6039 16.1265 21.2588 16.0341C21.1317 16 20.9767 16 20.6667 16H3.33333C3.02334 16 2.86835 16 2.74118 16.0341C2.39609 16.1265 2.12654 16.3961 2.03407 16.7412C2 16.8683 2 17.0233 2 17.3333C2 17.9533 2 18.2633 2.06815 18.5176C2.25308 19.2078 2.79218 19.7469 3.48236 19.9319C3.73669 20 4.04669 20 4.66667 20Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>
+                Wordle Clone
+              </p>
+              <p
+                class="text-sm"
+              >
+                NextJS and TailwindCSS.
+              </p>
+            </div>
+          </article>
+          <article
+            class="flex items-end bg-background-light h-72 rounded-[6px] relative p-1"
+          >
+            <span
+              class="muted absolute text-xs top-3 right-3"
+            >
+              <time
+                datetime="2023"
+              >
+                2023
+              </time>
+            </span>
+            <div
+              class="flex flex-col items-start justify-end p-3 rounded-[5px] gap-y-3 border-2 border-border w-full h-full"
+            >
+              <svg
+                class="stroke-foreground"
+                data-testid="web-icon"
+                fill="none"
+                height="36"
+                viewBox="0 0 24 24"
+                width="36"
+              >
+                <path
+                  d="M21 16V7.2C21 6.0799 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.4802 4 18.9201 4 17.8 4H6.2C5.07989 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.0799 3 7.2V16M4.66667 20H19.3333C19.9533 20 20.2633 20 20.5176 19.9319C21.2078 19.7469 21.7469 19.2078 21.9319 18.5176C22 18.2633 22 17.9533 22 17.3333C22 17.0233 22 16.8683 21.9659 16.7412C21.8735 16.3961 21.6039 16.1265 21.2588 16.0341C21.1317 16 20.9767 16 20.6667 16H3.33333C3.02334 16 2.86835 16 2.74118 16.0341C2.39609 16.1265 2.12654 16.3961 2.03407 16.7412C2 16.8683 2 17.0233 2 17.3333C2 17.9533 2 18.2633 2.06815 18.5176C2.25308 19.2078 2.79218 19.7469 3.48236 19.9319C3.73669 20 4.04669 20 4.66667 20Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>
+                Connect 4
+              </p>
+              <p
+                class="text-sm"
+              >
+                React and TailwindCSS.
+              </p>
+            </div>
+          </article>
+          <article
+            class="flex items-end bg-background-light h-72 rounded-[6px] relative p-1"
+          >
+            <span
+              class="muted absolute text-xs top-3 right-3"
+            >
+              <time
+                datetime="2023"
+              >
+                2023
+              </time>
+            </span>
+            <div
+              class="flex flex-col items-start justify-end p-3 rounded-[5px] gap-y-3 border-2 border-border w-full h-full"
+            >
+              <svg
+                class="stroke-foreground"
+                data-testid="web-icon"
+                fill="none"
+                height="36"
+                viewBox="0 0 24 24"
+                width="36"
+              >
+                <path
+                  d="M21 16V7.2C21 6.0799 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.4802 4 18.9201 4 17.8 4H6.2C5.07989 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.0799 3 7.2V16M4.66667 20H19.3333C19.9533 20 20.2633 20 20.5176 19.9319C21.2078 19.7469 21.7469 19.2078 21.9319 18.5176C22 18.2633 22 17.9533 22 17.3333C22 17.0233 22 16.8683 21.9659 16.7412C21.8735 16.3961 21.6039 16.1265 21.2588 16.0341C21.1317 16 20.9767 16 20.6667 16H3.33333C3.02334 16 2.86835 16 2.74118 16.0341C2.39609 16.1265 2.12654 16.3961 2.03407 16.7412C2 16.8683 2 17.0233 2 17.3333C2 17.9533 2 18.2633 2.06815 18.5176C2.25308 19.2078 2.79218 19.7469 3.48236 19.9319C3.73669 20 4.04669 20 4.66667 20Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>
+                Who's that Pokémon?
+              </p>
+              <p
+                class="text-sm"
+              >
+                React and TailwindCSS.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="text-current text-center py-12 border-t border-border"
+    >
+      <p
+        class="text-foreground-muted text-sm"
+      >
+        Made with ❤️ by Nick
+      </p>
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`Home renders correctly 1`] = `
+<div>
+  <div
+    class="bg-background text-foreground flex flex-col min-h-screen max-w-6xl mx-auto  font-mono"
+  >
+    <header
+      class="flex justify-center sm:justify-between items-center h-16 sticky top-0 z-10 bg-background border-b border-border"
+    >
+      <h1
+        class="hidden sm:block"
+      >
+        <a
+          href="mailto:nick.gonzalez@3pillarglobal.com"
+        >
+          nick.gonzalez@3pillarglobal.com
+        </a>
+      </h1>
+      <nav>
+        <ul
+          class="flex justify-evenly gap-3"
+        >
+          <li>
+            <a
+              class="header-link "
+              href="#about"
+            >
+              #about
+            </a>
+          </li>
+          <li>
+            <a
+              class="header-link "
+              href="#skills"
+            >
+              #skills
+            </a>
+          </li>
+          <li>
+            <a
+              class="header-link "
+              href="#projects"
+            >
+              #projects
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main
+      class="p-4"
+    >
+      <section
+        aria-label="about"
+        class="flex flex-col justify-center items-center gap-12 min-h-[calc(100vh-4rem)]"
+        id="about"
+        role="region"
+      >
+        <img
+          alt="Nick González"
+          class="w-36 h-36 sm:w-60 sm:h-60 rounded-full grayscale"
+          data-nimg="1"
+          decoding="async"
+          height="240"
+          loading="lazy"
+          src="/_next/image?url=%2Fme.jpg&w=640&q=75"
+          srcset="/_next/image?url=%2Fme.jpg&w=256&q=75 1x, /_next/image?url=%2Fme.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="240"
+        />
+        <div
+          class="prose text-current text-center"
+        >
+          <h2
+            class="text-xl sm:text-2xl text-current"
+          >
+            # Hi, I'm Nick González 👋
+          </h2>
+          <p
+            class="text-base sm:text-lg"
+          >
+            I'm a Software Engineer with a passion for JavaScript and Mobile Development. My expertise lies in building innovative and user-centric applications, currently leveraging the power of React and Next.js to create seamless digital experiences.
+          </p>
+        </div>
+      </section>
+      <section
+        class="py-16"
+        id="skills"
+      >
+        <h2
+          class="text-4xl"
+        >
+          # Skills
+        </h2>
+        <div
+          class="flex gap-12 mt-12 flex-wrap justify-center"
+        >
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="JS"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/javascript.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              JS
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="TS"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/typescript.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              TS
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="NodeJS"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/nodejs.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              NodeJS
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="NextJS"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/nextjs.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              NextJS
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="React"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/react.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              React
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="GraphQL"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/graphql.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              GraphQL
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="CSS"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/css.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              CSS
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="HTML"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/html5.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              HTML
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="Dart"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/dart.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              Dart
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="PHP"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/php.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              PHP
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between h-32 w-24"
+          >
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <img
+                alt="TailwindCSS"
+                data-nimg="1"
+                decoding="async"
+                height="80"
+                loading="lazy"
+                src="/skills/tailwindcss.svg"
+                style="color: transparent;"
+                width="80"
+              />
+            </div>
+            <p
+              class="text-center mt-2 lowercase"
+            >
+              TailwindCSS
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex gap-12 mt-16 flex-wrap justify-center"
+        >
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                React Native
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                SQL
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                RestAPI
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                Unit Test
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                Express
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                NestJS
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                GIT
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                GITHUB
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                Wordpress
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                Drupal
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                MongoDB
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                Chakra UI
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-background-light rounded-[6px] p-[2px]"
+          >
+            <div
+              class="px-3 py-2 rounded-[5px] bg-background-light border-2 border-border"
+            >
+              <span
+                class="lowercase"
+              >
+                Laravel
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        aria-label="projects"
+        class="text-current py-16 min-h-screen"
+        id="projects"
+        role="region"
+      >
+        <h2
+          class="text-4xl"
+        >
+          # Projects
+        </h2>
+        <div
+          class="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-12"
+        >
+          <article
+            class="flex items-end bg-background-light h-72 rounded-[6px] relative p-1"
+          >
+            <span
+              class="muted absolute text-xs top-3 right-3"
+            >
+              <time
+                datetime="2020"
+              >
+                2020
+              </time>
+            </span>
+            <div
+              class="flex flex-col items-start justify-end p-3 rounded-[5px] gap-y-3 border-2 border-border w-full h-full"
+            >
+              <svg
+                class="stroke-foreground"
+                data-testid="web-icon"
+                fill="none"
+                height="36"
+                viewBox="0 0 24 24"
+                width="36"
+              >
+                <path
+                  d="M21 16V7.2C21 6.0799 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.4802 4 18.9201 4 17.8 4H6.2C5.07989 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.0799 3 7.2V16M4.66667 20H19.3333C19.9533 20 20.2633 20 20.5176 19.9319C21.2078 19.7469 21.7469 19.2078 21.9319 18.5176C22 18.2633 22 17.9533 22 17.3333C22 17.0233 22 16.8683 21.9659 16.7412C21.8735 16.3961 21.6039 16.1265 21.2588 16.0341C21.1317 16 20.9767 16 20.6667 16H3.33333C3.02334 16 2.86835 16 2.74118 16.0341C2.39609 16.1265 2.12654 16.3961 2.03407 16.7412C2 16.8683 2 17.0233 2 17.3333C2 17.9533 2 18.2633 2.06815 18.5176C2.25308 19.2078 2.79218 19.7469 3.48236 19.9319C3.73669 20 4.04669 20 4.66667 20Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>
+                Backcountry
+              </p>
+              <p
+                class="text-sm"
+              >
+                NextJS.
+              </p>
+            </div>
+          </article>
+          <article
+            class="flex items-end bg-background-light h-72 rounded-[6px] relative p-1"
+          >
+            <span
+              class="muted absolute text-xs top-3 right-3"
+            >
+              <time
+                datetime="2022"
+              >
+                2022
+              </time>
+            </span>
+            <div
+              class="flex flex-col items-start justify-end p-3 rounded-[5px] gap-y-3 border-2 border-border w-full h-full"
+            >
+              <svg
+                class="stroke-foreground"
+                data-testid="mobile-icon"
+                fill="none"
+                height="36"
+                viewBox="0 0 24 24"
+                width="36"
+              >
+                <path
+                  d="M12 18H12.01M9.2 21H14.8C15.9201 21 16.4802 21 16.908 20.782C17.2843 20.5903 17.5903 20.2843 17.782 19.908C18 19.4802 18 18.9201 18 17.8V6.2C18 5.0799 18 4.51984 17.782 4.09202C17.5903 3.71569 17.2843 3.40973 16.908 3.21799C16.4802 3 15.9201 3 14.8 3H9.2C8.0799 3 7.51984 3 7.09202 3.21799C6.71569 3.40973 6.40973 3.71569 6.21799 4.09202C6 4.51984 6 5.07989 6 6.2V17.8C6 18.9201 6 19.4802 6.21799 19.908C6.40973 20.2843 6.71569 20.5903 7.09202 20.782C7.51984 21 8.07989 21 9.2 21Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>
+                Full Focus
+              </p>
+              <p
+                class="text-sm"
+              >
+                React Native.
+              </p>
+            </div>
+          </article>
+          <article
+            class="flex items-end bg-background-light h-72 rounded-[6px] relative p-1"
+          >
+            <span
+              class="muted absolute text-xs top-3 right-3"
+            >
+              <time
+                datetime="2023"
+              >
+                2023
+              </time>
+            </span>
+            <div
+              class="flex flex-col items-start justify-end p-3 rounded-[5px] gap-y-3 border-2 border-border w-full h-full"
+            >
+              <svg
+                class="stroke-foreground"
+                data-testid="web-icon"
+                fill="none"
+                height="36"
+                viewBox="0 0 24 24"
+                width="36"
+              >
+                <path
+                  d="M21 16V7.2C21 6.0799 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.4802 4 18.9201 4 17.8 4H6.2C5.07989 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.0799 3 7.2V16M4.66667 20H19.3333C19.9533 20 20.2633 20 20.5176 19.9319C21.2078 19.7469 21.7469 19.2078 21.9319 18.5176C22 18.2633 22 17.9533 22 17.3333C22 17.0233 22 16.8683 21.9659 16.7412C21.8735 16.3961 21.6039 16.1265 21.2588 16.0341C21.1317 16 20.9767 16 20.6667 16H3.33333C3.02334 16 2.86835 16 2.74118 16.0341C2.39609 16.1265 2.12654 16.3961 2.03407 16.7412C2 16.8683 2 17.0233 2 17.3333C2 17.9533 2 18.2633 2.06815 18.5176C2.25308 19.2078 2.79218 19.7469 3.48236 19.9319C3.73669 20 4.04669 20 4.66667 20Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>
+                iPro
+              </p>
+              <p
+                class="text-sm"
+              >
+                Ruby and React.
+              </p>
+            </div>
+          </article>
+          <article
+            class="flex items-end bg-background-light h-72 rounded-[6px] relative p-1"
+          >
+            <span
+              class="muted absolute text-xs top-3 right-3"
+            >
+              <time
+                datetime="2020"
+              >
+                2020
+              </time>
+            </span>
+            <div
+              class="flex flex-col items-start justify-end p-3 rounded-[5px] gap-y-3 border-2 border-border w-full h-full"
+            >
+              <svg
+                class="stroke-foreground"
+                data-testid="web-icon"
+                fill="none"
+                height="36"
+                viewBox="0 0 24 24"
+                width="36"
+              >
+                <path
+                  d="M21 16V7.2C21 6.0799 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.4802 4 18.9201 4 17.8 4H6.2C5.07989 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.0799 3 7.2V16M4.66667 20H19.3333C19.9533 20 20.2633 20 20.5176 19.9319C21.2078 19.7469 21.7469 19.2078 21.9319 18.5176C22 18.2633 22 17.9533 22 17.3333C22 17.0233 22 16.8683 21.9659 16.7412C21.8735 16.3961 21.6039 16.1265 21.2588 16.0341C21.1317 16 20.9767 16 20.6667 16H3.33333C3.02334 16 2.86835 16 2.74118 16.0341C2.39609 16.1265 2.12654 16.3961 2.03407 16.7412C2 16.8683 2 17.0233 2 17.3333C2 17.9533 2 18.2633 2.06815 18.5176C2.25308 19.2078 2.79218 19.7469 3.48236 19.9319C3.73669 20 4.04669 20 4.66667 20Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>
+                Feria de Artes Virtual 2020-2021
+              </p>
+              <p
+                class="text-sm"
+              >
+                WordPress and Frontity.
+              </p>
+            </div>
+          </article>
+          <article
+            class="flex items-end bg-background-light h-72 rounded-[6px] relative p-1"
+          >
+            <span
+              class="muted absolute text-xs top-3 right-3"
+            >
+              <time
+                datetime="2020"
+              >
+                2020
+              </time>
+            </span>
+            <div
+              class="flex flex-col items-start justify-end p-3 rounded-[5px] gap-y-3 border-2 border-border w-full h-full"
+            >
+              <svg
+                class="stroke-foreground"
+                data-testid="web-icon"
+                fill="none"
+                height="36"
+                viewBox="0 0 24 24"
+                width="36"
+              >
+                <path
+                  d="M21 16V7.2C21 6.0799 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.4802 4 18.9201 4 17.8 4H6.2C5.07989 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.0799 3 7.2V16M4.66667 20H19.3333C19.9533 20 20.2633 20 20.5176 19.9319C21.2078 19.7469 21.7469 19.2078 21.9319 18.5176C22 18.2633 22 17.9533 22 17.3333C22 17.0233 22 16.8683 21.9659 16.7412C21.8735 16.3961 21.6039 16.1265 21.2588 16.0341C21.1317 16 20.9767 16 20.6667 16H3.33333C3.02334 16 2.86835 16 2.74118 16.0341C2.39609 16.1265 2.12654 16.3961 2.03407 16.7412C2 16.8683 2 17.0233 2 17.3333C2 17.9533 2 18.2633 2.06815 18.5176C2.25308 19.2078 2.79218 19.7469 3.48236 19.9319C3.73669 20 4.04669 20 4.66667 20Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>
+                Expo Pyme Virtual 2020
+              </p>
+              <p
+                class="text-sm"
+              >
+                Drupal and Gatsby.
+              </p>
+            </div>
+          </article>
+          <article
+            class="flex items-end bg-background-light h-72 rounded-[6px] relative p-1"
+          >
+            <span
+              class="muted absolute text-xs top-3 right-3"
+            >
+              <time
+                datetime="2020"
+              >
+                2020
+              </time>
+            </span>
+            <div
+              class="flex flex-col items-start justify-end p-3 rounded-[5px] gap-y-3 border-2 border-border w-full h-full"
+            >
+              <svg
+                class="stroke-foreground"
+                data-testid="mobile-icon"
+                fill="none"
+                height="36"
+                viewBox="0 0 24 24"
+                width="36"
+              >
+                <path
+                  d="M12 18H12.01M9.2 21H14.8C15.9201 21 16.4802 21 16.908 20.782C17.2843 20.5903 17.5903 20.2843 17.782 19.908C18 19.4802 18 18.9201 18 17.8V6.2C18 5.0799 18 4.51984 17.782 4.09202C17.5903 3.71569 17.2843 3.40973 16.908 3.21799C16.4802 3 15.9201 3 14.8 3H9.2C8.0799 3 7.51984 3 7.09202 3.21799C6.71569 3.40973 6.40973 3.71569 6.21799 4.09202C6 4.51984 6 5.07989 6 6.2V17.8C6 18.9201 6 19.4802 6.21799 19.908C6.40973 20.2843 6.71569 20.5903 7.09202 20.782C7.51984 21 8.07989 21 9.2 21Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>
+                tapchat
+              </p>
+              <p
+                class="text-sm"
+              >
+                React Native.
+              </p>
+            </div>
+          </article>
+          <article
+            class="flex items-end bg-background-light h-72 rounded-[6px] relative p-1"
+          >
+            <span
+              class="muted absolute text-xs top-3 right-3"
+            >
+              <time
+                datetime="2023"
+              >
+                2023
+              </time>
+            </span>
+            <div
+              class="flex flex-col items-start justify-end p-3 rounded-[5px] gap-y-3 border-2 border-border w-full h-full"
+            >
+              <svg
+                class="stroke-foreground"
+                data-testid="web-icon"
+                fill="none"
+                height="36"
+                viewBox="0 0 24 24"
+                width="36"
+              >
+                <path
+                  d="M21 16V7.2C21 6.0799 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.4802 4 18.9201 4 17.8 4H6.2C5.07989 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.0799 3 7.2V16M4.66667 20H19.3333C19.9533 20 20.2633 20 20.5176 19.9319C21.2078 19.7469 21.7469 19.2078 21.9319 18.5176C22 18.2633 22 17.9533 22 17.3333C22 17.0233 22 16.8683 21.9659 16.7412C21.8735 16.3961 21.6039 16.1265 21.2588 16.0341C21.1317 16 20.9767 16 20.6667 16H3.33333C3.02334 16 2.86835 16 2.74118 16.0341C2.39609 16.1265 2.12654 16.3961 2.03407 16.7412C2 16.8683 2 17.0233 2 17.3333C2 17.9533 2 18.2633 2.06815 18.5176C2.25308 19.2078 2.79218 19.7469 3.48236 19.9319C3.73669 20 4.04669 20 4.66667 20Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>
+                Wordle Clone
+              </p>
+              <p
+                class="text-sm"
+              >
+                NextJS and TailwindCSS.
+              </p>
+            </div>
+          </article>
+          <article
+            class="flex items-end bg-background-light h-72 rounded-[6px] relative p-1"
+          >
+            <span
+              class="muted absolute text-xs top-3 right-3"
+            >
+              <time
+                datetime="2023"
+              >
+                2023
+              </time>
+            </span>
+            <div
+              class="flex flex-col items-start justify-end p-3 rounded-[5px] gap-y-3 border-2 border-border w-full h-full"
+            >
+              <svg
+                class="stroke-foreground"
+                data-testid="web-icon"
+                fill="none"
+                height="36"
+                viewBox="0 0 24 24"
+                width="36"
+              >
+                <path
+                  d="M21 16V7.2C21 6.0799 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.4802 4 18.9201 4 17.8 4H6.2C5.07989 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.0799 3 7.2V16M4.66667 20H19.3333C19.9533 20 20.2633 20 20.5176 19.9319C21.2078 19.7469 21.7469 19.2078 21.9319 18.5176C22 18.2633 22 17.9533 22 17.3333C22 17.0233 22 16.8683 21.9659 16.7412C21.8735 16.3961 21.6039 16.1265 21.2588 16.0341C21.1317 16 20.9767 16 20.6667 16H3.33333C3.02334 16 2.86835 16 2.74118 16.0341C2.39609 16.1265 2.12654 16.3961 2.03407 16.7412C2 16.8683 2 17.0233 2 17.3333C2 17.9533 2 18.2633 2.06815 18.5176C2.25308 19.2078 2.79218 19.7469 3.48236 19.9319C3.73669 20 4.04669 20 4.66667 20Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>
+                Connect 4
+              </p>
+              <p
+                class="text-sm"
+              >
+                React and TailwindCSS.
+              </p>
+            </div>
+          </article>
+          <article
+            class="flex items-end bg-background-light h-72 rounded-[6px] relative p-1"
+          >
+            <span
+              class="muted absolute text-xs top-3 right-3"
+            >
+              <time
+                datetime="2023"
+              >
+                2023
+              </time>
+            </span>
+            <div
+              class="flex flex-col items-start justify-end p-3 rounded-[5px] gap-y-3 border-2 border-border w-full h-full"
+            >
+              <svg
+                class="stroke-foreground"
+                data-testid="web-icon"
+                fill="none"
+                height="36"
+                viewBox="0 0 24 24"
+                width="36"
+              >
+                <path
+                  d="M21 16V7.2C21 6.0799 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.4802 4 18.9201 4 17.8 4H6.2C5.07989 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.0799 3 7.2V16M4.66667 20H19.3333C19.9533 20 20.2633 20 20.5176 19.9319C21.2078 19.7469 21.7469 19.2078 21.9319 18.5176C22 18.2633 22 17.9533 22 17.3333C22 17.0233 22 16.8683 21.9659 16.7412C21.8735 16.3961 21.6039 16.1265 21.2588 16.0341C21.1317 16 20.9767 16 20.6667 16H3.33333C3.02334 16 2.86835 16 2.74118 16.0341C2.39609 16.1265 2.12654 16.3961 2.03407 16.7412C2 16.8683 2 17.0233 2 17.3333C2 17.9533 2 18.2633 2.06815 18.5176C2.25308 19.2078 2.79218 19.7469 3.48236 19.9319C3.73669 20 4.04669 20 4.66667 20Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>
+                Who's that Pokémon?
+              </p>
+              <p
+                class="text-sm"
+              >
+                React and TailwindCSS.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="text-current text-center py-12 border-t border-border"
+    >
+      <p
+        class="text-foreground-muted text-sm"
+      >
+        Made with ❤️ by Nick
+      </p>
+    </footer>
+  </div>
+</div>
+`;
